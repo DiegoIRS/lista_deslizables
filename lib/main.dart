@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      debugShowCheckedModeBanner: false, // Esto es lo que debes agregar
       // Pasa los datos del estudiante a HomeWidget
       home: HomeWidget(estudianteData: estudianteData),
     );
